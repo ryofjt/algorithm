@@ -1,5 +1,5 @@
 RESOLVE:=python3 tools/resolve.py
-GPP_FAST:=g++ -std=c++17 -O2 -Wall -Wextra
+GPP_FAST:=g++ -std=c++20 -O2 -Wall -Wextra
 GPP=$(GPP_FAST) -fsanitize=address
 
 run: compile
